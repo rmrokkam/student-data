@@ -1,0 +1,56 @@
+.table-container {
+    max-height: 635px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    border: 1px solid #ddd; /* Optional: Add a border around the table */
+    padding: 5px; /* Optional: Add some padding */
+}
+
+.container {
+    padding: 10px;
+}
+
+.search-container {
+    margin-bottom: 7.5px;
+}
+
+.search-container button {
+    margin-left: 10px;
+}
+
+.error-message {
+    color: red;
+    margin: 10px 0;
+}
+
+.filter-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    padding: 5px; /* Add some padding for better spacing */
+    background-color: #e0e0e0;
+}
+
+.filter-item:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+#filter-button {
+    margin-left: 63.76%;
+}
+
+#filter-labels {
+    margin-left: 10px;
+}
